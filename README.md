@@ -43,3 +43,15 @@ sequenceDiagram
 }%%
 
 ```
+
+### Odoo modules
+Odoo modules are the main building blocks of the Odoo application. They are
+independent pieces of code that can either add brand new business logic to an
+Odoo system or alter an extend existing business logic.
+
+Modules may also be referred to as `addons` and the directories where Odoo
+server finds them form the  `addons_path`
+
+#### Compositio of a module
+
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/KfWFP5qAr93GTLHMkCR7o4"></iframe>
