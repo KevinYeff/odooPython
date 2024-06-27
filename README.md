@@ -54,4 +54,44 @@ server finds them form the  `addons_path`
 
 #### Compositio of a module
 
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/KfWFP5qAr93GTLHMkCR7o4"></iframe>
+```mermaid
+mindmap
+  root((Composition 
+  of a module))
+    An Odoo module can contain:
+      Business objects
+        Declared as Python classes
+        Mapped to database columns via ORM
+      Object views
+        Define UI display
+      Data files
+        XML or CSV files declaring model data:
+          Views or reports
+          Configuration data
+          Demonstration data
+          And more
+      Web controllers
+        Handle requests from web browsers
+      Static web data
+        Images, CSS or JavaScript files
+    None of these elements are mandatory
+
+    Some modules may only add data files
+
+    Others may only add business objects
+
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': 'white',
+      'primaryTextColor': 'black',
+      'primaryBorderColor': '',
+      'lineColor': '',
+      'secondaryColor': 'yellow',
+      'tertiaryColor': 'yellow',
+      'fontFamily': ''
+    }
+  }
+}%%
+```
